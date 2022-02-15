@@ -1,0 +1,254 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+/* creat acount */
+
+body{
+    background-color:rgb(238, 239, 240) ;
+   
+}
+.sec1{
+    display: flex;
+    justify-content: space-between;
+   margin: 80px 150px 50px ;
+  
+}
+.hhh{
+    margin-top: 100px;
+}
+.sec1 .h1{
+    color: rgb(28, 117, 177);
+    font-size:60px;
+}
+.sec1 .h2{
+    margin: 20px 0;
+    font-weight: 100;
+    line-height: 1.4;
+    color: #6e6d6d;
+    font-family: SFProDisplay-Bold, Helvetica, Arial, sans-serif;
+    font-size: 32px;
+    width: 471px;
+}
+.form{
+    box-shadow: 1px 3px 5px 3px  rgb(175, 173, 173);
+   padding: 7px;
+   border-radius: 1%;
+   background-color: #fff;
+}
+.error{
+   padding: 5px 110px;
+    color: rgb(250, 7, 7);
+    font-weight: bold;
+    
+}
+.form input{
+    padding: 15px;
+    border: none;
+    border-radius: 6%;
+    margin: 5px;
+    background-color: rgb(243, 245, 247);
+   
+}
+.form input:focus{
+    outline: none;
+}
+
+.email{
+    min-width: 100%;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    border: 1px solid #d2d2d2;
+    border-radius: 6px;
+    font-size: 15px;
+    font-weight: bold;
+    background-color: rgb(243, 245, 247);
+}
+
+.pass{
+    min-width: 100%;
+    margin-bottom: 15px;
+    border: 1px solid #d2d2d2;
+    border-radius: 6px;
+    font-size: 15px;
+    font-weight: bold;
+    background-color: rgb(243, 245, 247);
+}
+
+.name{
+    display: flex;
+    
+}
+.name .fname{
+    border: 1px solid #d2d2d2;
+}
+.name .sname{
+    border: 1px solid #d2d2d2;
+}
+
+
+
+.chos{
+    display: flex;
+    padding: 10px;
+}
+.chos select{
+    margin-right: 15px;
+    padding: 5px 20px 5px 10px;
+    border: none;
+    box-shadow: 0px 1px 3px rgb(175, 173, 173);
+}
+.gen{
+    position: relative;
+}
+.gen label  {
+    box-shadow: 0px 1px 3px rgb(175, 173, 173);
+    padding: 5px 50px 5px 10px;
+      margin-left: 15px;
+}
+.gen input{
+    position: absolute;
+    margin-left: -25px;
+    
+    
+}
+.p{
+   font-size: 11px;
+    color: #777;
+}
+.but{
+    background: none;
+    background-color: #00a400;
+    border: none;
+    border-radius: 6px;
+    box-shadow: none;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+    height: 36px;
+    padding: 0 32px ;
+    text-shadow: none;
+    margin-left: 110px;
+}
+.but:hover{
+    background-color: #5db35d;
+}
+
+/* end creat acount */
+
+/* log in */
+
+.sec2{
+    display: flex;
+    justify-content: space-between;
+   margin: 120px 200px 50px ;
+   align-items: center;
+  
+}
+
+.sec2 .h1h{
+    color: rgb(28, 117, 177);
+    font-size:60px;
+}
+.sec2 .h2h{
+    margin: 20px 0;
+    font-weight: 100;
+    line-height: 1.4;
+    color: #6e6d6d;
+    font-family: SFProDisplay-Bold, Helvetica, Arial, sans-serif;
+    font-size: 32px;
+    width: 471px;
+}
+.form2{
+    box-shadow: 1px 3px 5px 3px  rgb(175, 173, 173);
+   padding: 20px 130px 20px 50px;
+   border-radius: 1%;
+   background-color: #fff;
+   
+}
+.error2{
+    padding: 5px 40px;
+     color: rgb(250, 7, 7);
+     font-weight: bold;
+     margin-bottom: 10px;
+     
+ }
+
+.form2 input{
+    padding: 15px 100px 15px 20px ;
+    border: none;
+    border-radius: 6%;
+    margin: 5px;
+   
+   
+}
+
+.form2 input:focus{
+    outline: none;
+}
+
+.but2{
+    background: none;
+    background-color: #3863f0;
+    border: none;
+    border-radius: 6px;
+    box-shadow: none;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+    height: 36px;
+    padding: 5px 100px ;
+    text-shadow: none;
+    margin-left: 40px;
+    
+}
+.but2:hover{
+    background-color: #2e52ca;
+}
+
+.link a{
+    text-decoration: none;
+    color: #3863f0;
+    margin-left: 100px;
+    
+}
+
+
+
+.but3{
+    background-color:rgb(34, 196, 34) ;
+    display: inline-block;
+    padding: 15px;
+    margin: 10px;
+    border-radius: 8px;
+    font-weight: bolder;
+    font-size: 18px;
+   margin-left: 70px;
+   border: none;
+}
+.but3:hover{
+    background-color: #1e791e;
+}
+.but3 a{
+    text-decoration: none;
+    color: white;
+}
+
+.pp{
+    margin-left: 55%;
+   
+}
+
+.pp a{
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
