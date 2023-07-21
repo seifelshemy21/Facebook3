@@ -14,7 +14,6 @@ body{
     display: flex;
     justify-content: space-between;
    margin: 80px 150px 50px ;
-  
 }
 .hhh{
     margin-top: 100px;
@@ -244,6 +243,39 @@ body{
 .pp a{
     text-decoration: none;
 }
+@media  only screen and (max-width:1024px){
+.sec1{
+    flex-wrap: wrap;
+    margin: auto;
+}
+.form, form{
+    width: 460px;
+}
+.sec2{
+    flex-wrap: wrap;
+    margin: auto;
+}
+}
+
+
+@media  only screen and (max-width:600px){
+    .sec1{
+        flex-wrap: wrap;
+        margin: auto;
+    }
+    .sec2{
+        flex-wrap: wrap;
+        margin: auto;
+    }
+}
+
+
+
+
+
+
+
+
 
 
 
