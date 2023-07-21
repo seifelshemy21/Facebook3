@@ -532,7 +532,10 @@ nav {
     .secright{
         display: none;
     }
-  
+  .firstleft{
+        width: 6rem;
+        height: 12rem;
+    }
 }
 
 
